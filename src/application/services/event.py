@@ -25,4 +25,3 @@ class EventService:
     
     def find_event_by_id(self, id: str) -> Event:
         return self._repository.find_by_id(id)
-    
