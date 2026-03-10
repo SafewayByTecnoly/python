@@ -1,4 +1,4 @@
-from domain.models.event import Event
+from src.domain.models.event import Event
 from datetime import datetime
 import pytest
 

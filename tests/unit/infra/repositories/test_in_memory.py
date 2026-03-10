@@ -1,7 +1,7 @@
-from infra.repositories.in_memory import InMemoryAlertRepository
-from infra.repositories.in_memory import InMemoryEventRepository
-from domain.models.event import Event
-from domain.models.alert import Alert
+from src.infra.repositories.in_memory import InMemoryAlertRepository
+from src.infra.repositories.in_memory import InMemoryEventRepository
+from src.domain.models.event import Event
+from src.domain.models.alert import Alert
 
 from datetime import datetime
 import pytest

@@ -1,8 +1,8 @@
 from ast import List
 from datetime import datetime
-from domain.models.event import Event
-from domain.repositories.event_repository import EventRepository
-from application.services.event import EventService
+from src.domain.models.event import Event
+from src.domain.repositories.event_repository import EventRepository
+from src.application.services.event import EventService
 import pytest
 
 class FakeEventRepository(EventRepository):

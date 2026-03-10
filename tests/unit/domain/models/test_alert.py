@@ -1,5 +1,5 @@
 import pytest
-from domain.models.alert import Alert
+from src.domain.models.alert import Alert
 from datetime import datetime
 
 def test_create_alert():

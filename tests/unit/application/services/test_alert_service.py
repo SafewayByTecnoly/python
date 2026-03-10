@@ -1,9 +1,9 @@
 from typing import List
 
 import pytest
-from domain.models.alert import Alert
-from domain.repositories.alert_repository import AlertRepository
-from application.services.alert import AlertService
+from src.domain.models.alert import Alert
+from src.domain.repositories.alert_repository import AlertRepository
+from src.application.services.alert import AlertService
 from datetime import datetime
 
 class FakeAlertRepository(AlertRepository):
